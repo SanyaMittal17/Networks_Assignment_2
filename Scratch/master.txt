@@ -1,0 +1,9 @@
+master model:
+1. vayu se get -> recv and store in local
+2. local dictionary
+3. 3 queue -> later check if n queue possible
+4. parse function
+5. send_job -> for each client and runs from start to end and responsible for sending new lines to the client ; 
+    also add an "DONE" to the end of queue when master has completed his 1000 lines seeing which if the client hasnt yet received 1000 lines can demand the same from master
+6. recv_from_slave -> if a paricular line not in dictionary then add it to the three queues
+7. 

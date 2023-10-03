@@ -1,0 +1,5 @@
+1. client end ho gya to master ko lines bhejna band kr dega 
+2. start the session only once mutual connections have been established
+3. wherever you are using the indexing 1 to lim for lines change it to 0 to lim-1
+4. the vayu connection for a single client must start only when all clients are connected to master
+
